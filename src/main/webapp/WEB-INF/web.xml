@@ -1,0 +1,31 @@
+<web-app version="2.5"
+                xmlns="http://java.sun.com/xml/ns/javaee"
+                xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+    <servlet>
+        <servlet-name>LoginController</servlet-name>
+        <servlet-class>cn.dp.web.controller.LoginController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>RegistController</servlet-name>
+        <servlet-class>cn.dp.web.controller.RegistController</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>LogoutController</servlet-name>
+        <servlet-class>cn.dp.web.controller.LogoutController</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LogoutController</servlet-name>
+        <url-pattern>/LogoutController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>RegistController</servlet-name>
+        <url-pattern>/RegistController</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>LoginController</servlet-name>
+        <url-pattern>/LoginController</url-pattern>
+    </servlet-mapping>
+</web-app>

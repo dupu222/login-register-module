@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/dao/UserDao.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/dao/impl/UserDaoXmlImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/domain/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/exception/UserExistException.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/service/BusinessService.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/service/impl/BusinessServiceImpl.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/utils/Dom4jUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/utils/UserBeanUtils.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/web/controller/LoginController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/web/controller/LogoutController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/web/controller/RegistController.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java/cn/dp/web/domain/WebUserBean.java" charset="UTF-8" />
+  </component>
+</project>
