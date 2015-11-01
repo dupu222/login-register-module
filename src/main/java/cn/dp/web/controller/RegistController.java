@@ -34,17 +34,6 @@ public class RegistController extends HttpServlet {
             request.getRequestDispatcher(request.getContextPath()+"/regist.jsp").forward(request, response);
         }
 
-        //bean转换
-        /*
-        user.setUsername(webUserBean.getUsername());
-        user.setPassword(webUserBean.getPassword());
-        user.setEmail(webUserBean.getEmail());
-        SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
-        try {
-            user.setBirthday(sdf.parse(webUserBean.getBirthday()));
-        } catch (ParseException e) {
-            throw new RuntimeException(e);
-        }*/
         User user = new User();
 
         ConvertUtils.register(new DateLocaleConverter(), Date.class);
