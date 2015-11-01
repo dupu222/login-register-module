@@ -1,0 +1,7 @@
+# login-register-module
+用servlet和jsp技术实现的简单的注册登录模块
+
+DAO使用XML或者jdbc实现
+可以通过修改dao.properties中的daoimpl属性切换实现
+
+可以修改jdbc.properties中的driveClass/url/user/password等属性配置数据库的具体实现
