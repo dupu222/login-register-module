@@ -1,0 +1,1 @@
+{"name":"Login-register-module","tagline":"用servlet和jsp技术实现的简单的注册登录模块","body":"# login-register-module\r\n# 用servlet和jsp技术实现的简单的注册登录模块\r\n\r\n* DAO使用XML或者jdbc实现\r\n* 可以通过修改dao.properties中的daoimpl属性切换实现\r\n\r\n>（可以修改jdbc.properties中的driveClass/url/user/password等属性配置数据库的具体实现）\r\n","google":"","note":"Don't delete this file! It's used internally to help with page regeneration."}
